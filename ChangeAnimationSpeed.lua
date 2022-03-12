@@ -17,12 +17,6 @@ setclipboard("https://discord.gg/")
 
 ]]
 
---\ Configuration /--
-
-_G.Speed = 7
-
---\ Configuration /--
-
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/sourcezinhw/roblox-scripts/main/w/ChangeAnimationSpeed.lua'),true))()
 
 --[[
