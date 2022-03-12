@@ -1,6 +1,6 @@
 --[[
 
-    Discord Joiner
+    Change Animation Speed
 
     This script was made by source;
     https://discord.gg/
@@ -17,17 +17,11 @@ setclipboard("https://discord.gg/")
 
 ]]
 
---\ Configuration /--
-
-_G.InviteCode = "roblox"
-
---\ Configuration /--
-
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/sourcezinhw/roblox-scripts/main/w/DiscordJoiner.lua'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/sourcezinhw/roblox-scripts/main/lib/DiscordJoiner.lua'),true))()
 
 --[[
 
-    Discord Joiner
+    Change Animation Speed
 
     This script was made by source;
     https://discord.gg/
