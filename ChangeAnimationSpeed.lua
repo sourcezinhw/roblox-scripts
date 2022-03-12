@@ -1,29 +1,7 @@
---[[
+--\ Configuration /--
 
-    Change Animation Speed
+_G.Speed = 69
 
-    This script was made by source;
-    https://discord.gg/
+--\ Configuration /--
 
-]]
-
-repeat wait() until game:IsLoaded()
-setclipboard("https://discord.gg/")
-
---[[
-
-    This script was made by source;
-    https://discord.gg/
-
-]]
-
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/sourcezinhw/roblox-scripts/main/w/ChangeAnimationSpeed.lua'),true))()
-
---[[
-
-    Change Animation Speed
-
-    This script was made by source;
-    https://discord.gg/
-
-]]
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/sourcezinhw/roblox-scripts/main/lib/ChangeAnimationSpeed.lua'),true))()
