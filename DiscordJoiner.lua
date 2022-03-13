@@ -1,6 +1,6 @@
 --[[
 
-    Change Animation Speed
+    Discord Joiner
 
     This script was made by source;
     https://discord.gg/
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/sourcezinhw/roblox-s
 
 --[[
 
-    Change Animation Speed
+    Discord Joiner
 
     This script was made by source;
     https://discord.gg/
