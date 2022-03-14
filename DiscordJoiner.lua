@@ -15,7 +15,7 @@ local json = {
 	["args"] = {
 		["code"] = _G.InviteCode
 	},
-	["nonce"] = "k"
+	["nonce"] = "nonce"
 }
 
     syn.request({
