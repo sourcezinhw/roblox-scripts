@@ -10,12 +10,6 @@
 repeat wait() until game:IsLoaded()
 setclipboard("https://discord.gg/")
 
---\ Configuration /--
-
-_G.InviteCode = "roblox"
-
---\ Configuration /--
-
 local json = {
 	["cmd"] = "INVITE_BROWSER",
 	["args"] = {
