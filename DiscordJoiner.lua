@@ -10,14 +10,29 @@
 repeat wait() until game:IsLoaded()
 setclipboard("https://discord.gg/")
 
---[[
+--\ Configuration /--
 
-    This script was made by source;
-    https://discord.gg/
+_G.InviteCode = "roblox"
 
-]]
+--\ Configuration /--
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/sourcezinhw/roblox-scripts/main/lib/DiscordJoiner.lua'),true))()
+local json = {
+	["cmd"] = "INVITE_BROWSER",
+	["args"] = {
+		["code"] = _G.InviteCode
+	},
+	["nonce"] = 'a'
+}
+
+    syn.request({
+        Url = 'http://127.0.0.1:6463/rpc?v=1',
+        Method = 'POST',
+        Headers = {
+            ['Content-Type'] = 'application/json',
+            ['Origin'] = 'https://discord.com'
+        },
+    Body = game:GetService('HttpService'):JSONEncode(json),
+    })
 
 --[[
 
